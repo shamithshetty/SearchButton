@@ -4,6 +4,12 @@
  
 Search Button is an Android library that can be used to make animated search button.
 
+### Demo 
+
+<div align="center"><img src="ezgif-4-32407bdea114 (1).gif"/></div>
+
+### Java
+
 # Usage
 Add it in your root build.gradle at the end of repositories:
 ```
@@ -40,9 +46,9 @@ dependencies {
     </com.example.searchbutton.SearchButton>
 
 ```
-### Demo with border width 6
+### Demo 
 
-<div align="center"><img src="clockpic.gif"/></div>
+<div align="center"><img src="ezgif-4-32407bdea114 (1).gif"/></div>
 
 ### Java
 
