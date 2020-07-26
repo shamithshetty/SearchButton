@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextView">
+        <attr name="backColor" format="color|reference"/>
+        <attr name="placeHolder" format="string"/>
+        <attr name="textColor" format="color|reference" />
+        <attr name="borderColor" format="color|reference" />
+        <attr name="borderWidthSize" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="length" format="dimension" />
+    </declare-styleable>
+</resources>

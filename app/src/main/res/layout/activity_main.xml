@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"
+    tools:context=".MainActivity">
+
+    <com.example.searchbutton.SearchButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:borderWidthSize="5dp"
+        app:backColor="#09ef3e"
+        app:textColor="#ffffff"
+        app:length="200dp"
+        app:borderColor="#0e60a7"
+        android:layout_marginLeft="20dp">
+    </com.example.searchbutton.SearchButton>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="@drawable/btnstyle"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:onClick="start"
+            android:text="manual Open"/>
+        <Button
+            android:onClick="close"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/btnstyle"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manual Close"/>
+
+    </LinearLayout>
+
+</LinearLayout>
